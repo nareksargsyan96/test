@@ -3,22 +3,16 @@ import clsx from 'clsx';
 
 import styles from './textInput.module.scss';
 
-
- const TextInput = ({
-  className,
-  type,
-  value
-}) => {
-
-  const handleShow = () => {
-    setShowPassword((prev) => !prev);
-  };
+const TextInput = ({ className, type, value }) => {
+  // const handleShow = () => {
+  //   setShowPassword((prev) => !prev);
+  // };
 
   return (
-    <div  className={styles.textInput}>
+    <div className={styles.textInput}>
       <input
-        className={clsx(className,styles.input)}
-        type={type === 'password' && showPassword ? 'text' : type}
+        className={clsx(className, styles.input)}
+        // type={type === 'password' && showPassword ? 'text' : type}
         defaultValue={value}
         //error={!!error?.message}
       />
@@ -31,4 +25,5 @@ import styles from './textInput.module.scss';
     </div>
   );
 };
+
 export default TextInput;

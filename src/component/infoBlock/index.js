@@ -1,2 +1,2 @@
-import InfoBlock from "./infoBlock";
+import InfoBlock from './infoBlock';
 export default InfoBlock;
