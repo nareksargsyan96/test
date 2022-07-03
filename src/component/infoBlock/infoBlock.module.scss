@@ -1,0 +1,38 @@
+@import '../default-scss/variables';
+
+.infoBlock{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: $white;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);
+    border-radius: 7px;
+    width: 843px;
+    height: 60px;
+    padding: 5px 32px 5px 32px;
+    
+    .infoBlock_search{
+        display: flex;
+        align-items: center;
+    }
+    .infoBlock_location{
+        display: flex;
+        align-items: center;
+    }
+    .infoBlock_group{
+        display: flex;
+        align-items: center;
+    }
+    .infoBlock_icon{
+        margin-right: 8px;
+    }
+    .infoBlock_select{
+        height: 200px;
+    }
+    .btn{
+        border-radius: 4px;
+        color: $white;
+        background-color: $siteColor;
+        padding: 13px 29px 13px 29px ;
+    }
+}

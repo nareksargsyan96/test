@@ -1,0 +1,126 @@
+@import '../../../../component/default-scss/variables';
+
+
+.showJobs{
+    margin-left: 364px;
+    margin-top:200px;
+    .showJobs_heading{
+        display: flex;
+        align-items: center;
+        .heading{
+            width: 994px;
+            font-weight: 700;
+            font-size: 45px;
+            margin-right: 71px;
+            color:  #202020;
+            letter-spacing: 0.05em;
+        }
+        .btn{
+            height: 40px;
+            padding: 10px 15px 10px 15px;
+            color: $white;
+            background-color: $siteColor;
+            border-radius: 3px;
+            letter-spacing: 0.03em;
+            font-weight: 700;
+            border: none;
+        }
+    }
+    .text{
+        width: 715px;
+        font-size: 20px;
+        font-weight: 400;
+        letter-spacing: 0.01em;
+        color: $gray4F;
+        letter-spacing: 0.01em;
+    }
+    .jops{
+        display: grid;
+        grid-template-columns: 368px 368px 368px;
+        gap: 65px;
+        margin-top: 67px;
+        .jop{
+            background-color: #FDFEFF;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
+            border-radius: 7px;
+            padding: 37px 0px 47px 0px;
+
+            .jop_info{
+                display: flex;
+                align-items: flex-start;
+                justify-content: space-evenly;
+                .name_location{
+                   line-height: 30px;
+                   .name{
+                     color:  #0B0F18ED;
+                     font-weight: 700;
+                     font-size: 21px;;
+                   }
+                   .location{
+                     color:  $gray4F;
+                     font-weight: 400;
+                     font-size: 15px;
+                     line-height: 28px;
+                     margin-top: 25px;
+                     .location_svg{
+                        margin-right: 5px; 
+                     }
+                   }
+                }
+
+                .time_distance{
+                   line-height: 30px;
+                   .time{
+                      display: flex;
+                      align-items: center;
+                      font-family: 'Arial';
+                      font-style: normal;
+                      font-weight: 400;
+                      color:  $gray4F;
+                      font-size: 15px;
+                      .time_svg{
+                        margin-right: 7px;
+                      }
+                   }
+                   .distance{
+                      display: flex;
+                      align-items: center;
+                      font-family: 'Arial';
+                      font-style: normal;
+                      font-weight: 400;
+                      color:  $gray4F;
+                      font-size: 15px;
+                      margin-top: 25px;
+                   }
+                   .distance_svg{
+                      margin-right: 7px;
+                   }
+                }   
+            }
+            .price_btn{
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly; 
+                margin-top: 77px;
+                .price{
+                    font-family: 'Arial';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 15px;
+                    line-height: 28px;
+                    letter-spacing: 0.01em;
+                    color: #202020;
+                }
+                .btn{
+                    padding: 9px 11px 9px 11px;
+                    color: $white;
+                    background-color: $siteColor;
+                    border-radius: 3px;
+                    letter-spacing: 0.03em;
+                    font-weight: 700;
+                    border: none;
+                }
+            }
+        }
+    }
+}

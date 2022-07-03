@@ -1,0 +1,50 @@
+@import '../default-scss/variables';
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 59px;
+    margin-left: 224px;
+    .header_logo_link{
+       display: flex;
+    }
+    .header_link{
+       display: flex;
+       align-items: center;
+       margin-left: 139px;
+       color: $black;
+       .link{
+          cursor: pointer;
+          margin-right: 45px;
+          font-size: $headerSize;
+          font-weight: 400;
+          transform: matrix(1, 0.01, -0.01, 1, 0, 0);
+          &:hover {
+            color: #000;
+          }
+       }
+    }
+    .header_btn{
+      display: flex;
+      margin-right:63px;
+         .btn_login{
+           margin-right: 14px;
+           padding: 17px 42px 17px 42px;
+           color: $white;
+           background: rgba(45, 40, 72, 0.49);
+           border: 1px solid #211C37;
+           border-radius: 4px;
+         }
+        .btn_reg{
+          border-radius: 4px;
+          color: $white;
+          background-color: $siteColor;
+          padding: 17px 42px 17px 42px ;
+        }
+        .languages{
+           color: $siteColor;
+           margin-left:42px;
+        }
+     }
+}
