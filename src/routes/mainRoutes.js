@@ -1,21 +1,20 @@
-import  Home  from '../pages/home/home';
+import Home from "../pages/home/home";
 
 const mainRoutes = [
   {
-    path: '/',
+    path: "/",
     isActive: false,
     exact: true,
     component: () => <Home />,
   },
   {
-    name: 'home',
-    text: 'Home',
-    path: '/home',
+    name: "home",
+    text: "Home",
+    path: "/home",
     isActive: false,
     exact: true,
     component: () => <Home />,
   },
- 
 ];
 
 export default mainRoutes;

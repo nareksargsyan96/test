@@ -1,2 +1,2 @@
-import BasicSelect from "./basicSelect";
+import BasicSelect from './basicSelect';
 export default BasicSelect;

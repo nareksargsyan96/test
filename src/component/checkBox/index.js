@@ -1,2 +1,2 @@
-import CheckBox from "./checkBox";
+import CheckBox from './checkBox';
 export default CheckBox;

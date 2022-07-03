@@ -1,4 +1,4 @@
-import Layout  from './component/layout';
+import Layout from './component/layout';
 import PageRoutes from './routes/pageRoutes';
 
 import './App.css';
